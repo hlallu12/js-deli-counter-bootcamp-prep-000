@@ -1,7 +1,10 @@
-function takeANumber(line){
-  return `Welcome, your number ${line.length}`
-}
+var number = 0
 
+function takeANumber(line){
+  number++
+  line.push(number)
+  return `Welcome, your number ${number}`
+}
 
 
 
