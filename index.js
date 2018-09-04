@@ -24,7 +24,7 @@ function currentLine(katzDeliLine){
       } else {
         storage = storage + `${i+1}. ${katzDeliLine[i]}, `
       }
-    }
+    } 
   }
   return string + storage
 }
